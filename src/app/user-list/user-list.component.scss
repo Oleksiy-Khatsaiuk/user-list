@@ -1,0 +1,23 @@
+.users-block {
+  .user-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfdfdf;
+    padding: 5px 40px;
+
+    a {
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    button {
+      margin-right: 5px;
+    }
+  }
+}
+
+.form-block_error {
+  color: red;
+}

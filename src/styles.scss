@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+.title-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #292929;
+  padding: 10px 40px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #939393;
+  a {
+    color: #292929;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+}
